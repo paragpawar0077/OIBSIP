@@ -1,12 +1,20 @@
-# 🌸 OIBSIP - Data Science Internship Tasks  
+# 🌸 OIBSIP – Data Science Internship Projects  
 
-This repository contains the tasks completed as part of the Oasis Infobyte Data Science Internship Program (OIBSIP).
+This repository contains the projects completed as part of the **Oasis Infobyte Data Science Internship Program (OIBSIP)**.
 
-Each task demonstrates practical implementation of Data Science and Machine Learning concepts including data preprocessing, exploratory data analysis (EDA), model building, evaluation, and visualization.
+Each task demonstrates practical implementation of Data Science and Machine Learning concepts including:
+
+- Data Cleaning  
+- Exploratory Data Analysis (EDA)  
+- Feature Engineering  
+- Model Building  
+- Model Evaluation  
+- Data Visualization  
 
 ---
 
 ## 📂 Repository Structure
+
 
 ```
 OIBSIP/
@@ -20,8 +28,12 @@ OIBSIP/
 │   ├── Unemployment in India.csv
 │
 ├── TASK_3/
-└── ...
+│ ├──Task3_Car_Price_Prediction.ipynb
+│ ├── car data.csv
 ```
+
+---
+
 
 ---
 
@@ -36,29 +48,15 @@ To build a Machine Learning model that classifies iris flowers into three specie
 
 based on sepal and petal measurements.
 
-## 📊 Dataset  
-The dataset contains 150 samples with the following features:
-
-- Sepal Length  
-- Sepal Width  
-- Petal Length  
-- Petal Width  
-- Species (Target Variable)
-
 ## 🧠 Approach  
-- Data Loading & Exploration  
+- Data Exploration  
 - Data Preprocessing  
 - Train-Test Split (Stratified)  
-- Model Training using Logistic Regression  
-- Model Evaluation using:
-  - Accuracy Score  
-  - Classification Report  
+- Logistic Regression Model  
+- Model Evaluation using Accuracy Score & Classification Report  
 
-## 🤖 Model Used  
-Logistic Regression  
-
-## 📈 Results  
-The model achieved high accuracy on test data and successfully classified all three species.
+## 📈 Result  
+The model achieved high accuracy and successfully classified all three species.
 
 ---
 
@@ -67,29 +65,57 @@ The model achieved high accuracy on test data and successfully classified all th
 ## 📌 Objective  
 To analyze unemployment trends in India and understand the impact of COVID-19 using data visualization and exploratory data analysis techniques.
 
-## 📊 Dataset  
-The dataset includes:
-
-- Region (State-wise data)  
-- Date (Monthly data)  
-- Estimated Unemployment Rate (%)  
-- Estimated Employed  
-- Estimated Labour Participation Rate (%)  
-- Area (Rural / Urban)
-
 ## 🧠 Approach  
-- Data Cleaning (handling missing values and formatting columns)  
-- Date conversion and feature extraction (Year & Month)  
-- Exploratory Data Analysis (EDA)  
-- Time-series visualization  
-- State-wise comparison  
-- Rural vs Urban analysis  
-- COVID-19 impact analysis  
+- Data Cleaning  
+- Date Conversion & Feature Extraction  
+- Time-Series Analysis  
+- State-wise Comparison  
+- Rural vs Urban Analysis  
+- Visualization using Matplotlib  
 
 ## 📈 Key Insights  
-- Unemployment rates fluctuated over time with a sharp rise during 2020.  
-- The COVID-19 pandemic significantly impacted employment levels.  
-- Variations were observed across states and between rural and urban areas.
+- Sharp rise in unemployment during 2020 (COVID-19 impact).  
+- State-wise variations observed.  
+- Rural and Urban employment trends differed significantly.
+
+---
+
+# ✅ TASK 3: Car Price Prediction (Regression Problem)
+
+## 📌 Objective  
+To build a Machine Learning model that predicts the selling price of used cars based on various features.
+
+## 📊 Dataset Features  
+- Year  
+- Present Price  
+- Driven Kilometers  
+- Fuel Type  
+- Transmission  
+- Owner  
+- Selling Price (Target Variable)
+
+## 🧠 Approach  
+- Data Cleaning & Preprocessing  
+- Feature Engineering (Car Age creation)  
+- Correlation Analysis  
+- Encoding Categorical Variables (One-Hot Encoding)  
+- Train-Test Split  
+- Model Training & Comparison  
+
+## 🤖 Models Used  
+- Linear Regression  
+- Decision Tree Regressor  
+- Random Forest Regressor  
+
+## 📈 Results  
+
+| Model | R² Score |
+|-------|----------|
+| Linear Regression | ~0.59 |
+| Decision Tree | ~0.95 |
+| Random Forest | ~0.96 |
+
+Random Forest performed best due to its ability to capture non-linear relationships and reduce overfitting.
 
 ---
 
@@ -99,25 +125,24 @@ The dataset includes:
 - Pandas  
 - NumPy  
 - Matplotlib  
+- Seaborn  
 - Scikit-learn  
 - Jupyter Notebook  
 
 ---
 
-## 🚀 Upcoming Tasks  
+## 🚀 Future Improvements  
 
-This repository will be continuously updated with additional internship tasks including:
-
-- Regression Problems  
-- Advanced Classification Models  
-- Data Visualization Projects  
-- Real-world Machine Learning Applications  
+- Hyperparameter Tuning  
+- Model Deployment  
+- Cross-Validation  
+- Advanced Feature Engineering  
 
 ---
 
 ## 👨‍💻 Author  
 
-Parag Pawar  
+**Parag Pawar**  
 Data Science Intern – Oasis Infobyte  
 
 ⭐ If you found this repository helpful, feel free to star it!

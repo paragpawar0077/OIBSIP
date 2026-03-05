@@ -11,11 +11,7 @@ Each task demonstrates practical implementation of Data Science and Machine Lear
 * Model Evaluation
 * Data Visualization
 
----
-
 ## 📂 Repository Structure
-
-
 
 ```
 OIBSIP/
@@ -29,19 +25,17 @@ OIBSIP/
 │   ├── Unemployment in India.csv
 │
 ├── TASK_3/
-│ ├──Task3_Car_Price_Prediction.ipynb
-│ ├── car data.csv
+│   ├── Task3_Car_Price_Prediction.ipynb
+│   ├── car data.csv
 │
 ├── TASK_4/
-│ ├── spam_detection.ipynb
-│ ├── spam.csv
+│   ├── spam_detection.ipynb
+│   ├── spam.csv
 │
 ├── TASK_5/
-│ ├── sales_prediction.ipynb
-│ ├── Advertising.csv
----
-
-
+│   ├── sales_prediction.ipynb
+│   ├── Advertising.csv
+```
 
  ✅ TASK 1: Iris Flower Classification
 

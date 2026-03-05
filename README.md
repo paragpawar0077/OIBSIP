@@ -67,7 +67,7 @@ based on sepal and petal measurements.
 
 The model achieved high accuracy and successfully classified all three species.
 
----
+
 
 # ✅ TASK 2: Unemployment Analysis with Python
 
@@ -90,7 +90,7 @@ To analyze unemployment trends in India and understand the impact of COVID-19 us
 * State-wise variations observed.
 * Rural and Urban employment trends differed significantly.
 
----
+
 
 # ✅ TASK 3: Car Price Prediction (Regression Problem)
 
@@ -133,7 +133,7 @@ To build a Machine Learning model that predicts the selling price of used cars b
 
 Random Forest performed best due to its ability to capture non-linear relationships and reduce overfitting.
 
----
+
 
 # ✅ TASK 4: Email Spam Detection (Classification Problem)
 
@@ -171,7 +171,7 @@ Models were evaluated using:
 
 Naive Bayes performed particularly well for this task because it is highly effective for **text classification problems involving word frequencies**.
 
----
+
 
 # ✅ TASK 5: Sales Prediction Using Python
 
@@ -210,7 +210,7 @@ The models were evaluated using:
 
 TV advertising showed the strongest correlation with sales, indicating that TV promotions had the greatest impact on product sales.
 
----
+
 
 ## 🛠 Technologies Used
 
@@ -223,7 +223,6 @@ TV advertising showed the strongest correlation with sales, indicating that TV p
 * Jupyter Notebook
 * Natural Language Processing (NLP)
 
----
 
 ## 🚀 Future Improvements
 
@@ -232,7 +231,7 @@ TV advertising showed the strongest correlation with sales, indicating that TV p
 * Model Deployment (Web App)
 * Deep Learning based text classification
 
----
+
 
 ## 👨‍💻 Author
 

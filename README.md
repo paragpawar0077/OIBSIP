@@ -1,4 +1,4 @@
-# 🌸 OIBSIP – Data Science Internship Projects
+# OIBSIP – Data Science Internship Projects
 
 This repository contains the projects completed as part of the **Oasis Infobyte Data Science Internship Program (OIBSIP)**.
 

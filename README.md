@@ -42,11 +42,10 @@ OIBSIP/
 ---
 
 
----
 
-# ✅ TASK 1: Iris Flower Classification
+ ✅ TASK 1: Iris Flower Classification
 
-## 📌 Objective
+📌 Objective
 
 To build a Machine Learning model that classifies iris flowers into three species:
 
@@ -241,4 +240,4 @@ TV advertising showed the strongest correlation with sales, indicating that TV p
 Data Science Intern – Oasis Infobyte
 
 ⭐ If you found this repository helpful, feel free to star it!
-```
+
